@@ -1,16 +1,16 @@
 package com.pluralsight.fastpassservice;
 
-public class FastPassCustomer {
+public class Cart {
 
     private String fastPassId;
     private String customerFullName;
     private String customerPhone;
     private Float currentBalance;
 
-    public FastPassCustomer() {
+    public Cart() {
     }
 
-    public FastPassCustomer(String fastPassId, String customerFullName, String customerPhone, Float currentBalance) {
+    public Cart(String fastPassId, String customerFullName, String customerPhone, Float currentBalance) {
         this.fastPassId = fastPassId;
         this.customerFullName = customerFullName;
         this.customerPhone = customerPhone;
